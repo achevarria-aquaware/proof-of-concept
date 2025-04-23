@@ -25,15 +25,15 @@
       state: present
 
 
-  - name: create services
-    kubernetes.core.k8s:
-      src: service.yaml
-      namespace: achevarria-dev
-      state: present
+  # - name: create services
+  #   kubernetes.core.k8s:
+  #     src: service.yaml
+  #     namespace: achevarria-dev
+  #     state: present
 
      
-  - name: create route
-    kubernetes.core.k8s:
-      src: route.yaml
-      namespace: achevarria-dev
-      state: present
+  # - name: create route
+  #   kubernetes.core.k8s:
+  #     src: route.yaml
+  #     namespace: achevarria-dev
+  #     state: present
